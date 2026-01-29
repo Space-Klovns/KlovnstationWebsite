@@ -1,25 +1,40 @@
 ---
-title: "Klovnstation"
-description: "Welcome to the official Klovnstation website. Space clowns, red aesthetics, and cosmic chaos."
-date: 2026-01-28
-draft: false
+title: "Klovnstation 14"
+description: "It's the place to be!"
+layout: single
 ---
+Welcome to the website of Klovnstation 14. 
 
-# Welcome to Klovnstation 🚀
+We are a Space Station 14 server with minimal rules and a focus on high quality game design. Scholarly players, powergamers and roleplayers will all find their niche here.
 
-Your red cosmic clown station is **live**!
+<div>
 
-## What We Do
-- Build interstellar clown tech
-- Deploy red-themed Hugo sites  
-- Sass-powered styling perfection
-- GitHub Actions deployment mastery
+<div class=left>
 
-## Quick Links
-- [GitHub](https://github.com/Space-Klovns/KlovnstationWebsite)
-- [Deploy Status](https://github.com/Space-Klovns/KlovnstationWebsite/actions)
-- [Live Site](https://space-klovns.github.io/KlovnstationWebsite)
+{{% hotlinkicon "https://discord.gg/YOUR_INVITE" "/icons/discord.svg" "Discord" %}}
+{{% hotlinkicon "https://discord.gg/YOUR_INVITE" "/icons/github.svg" "Github" %}}
+{{% hotlinkicon "https://discord.gg/YOUR_INVITE" "/icons/xmpp.svg" "XMPP" %}}
+{{% hotlinkicon "https://discord.gg/YOUR_INVITE" "/icons/wiki.svg" "Wiki" %}}
+{{% hotlinkicon "https://discord.gg/YOUR_INVITE" "/icons/youtube.svg" "YouTube" %}}
 
-"Space clowns never sleep. Neither does our deployment pipeline."
+- [The launcher you'll need to play Klovn](https://store.steampowered.com/app/3731580/Space_Station_Beyond/)
 
-**Ready for cosmic chaos?** Let's deploy!
+- XMPP tutorial for dummies (under construction)
+
+- Ban evasion tutorial (under construction)
+
+- About us (under construction)
+
+</div>
+
+<div class=right>
+
+<img src="/images/kslogo.png" alt="KS14 logo" class="bigimage">
+
+</div>
+<br>
+</div>
+
+### Our design documents
+
+Because we have less rules, our game has to be designed very well in order for it to be fun for everyone. Our design documents are available either on the discord or [over here](/docs).

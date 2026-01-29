@@ -1,26 +1,18 @@
-baseURL = '/'
-languageCode = 'en-us'
-title = 'Klovnstation 14'
+baseurl = "/"
+languagecode = "en-us"
+title = "Klovnstation 14"
+description = "It's the place to be!"
 
-[module]
-  [[module.imports]]
-    path = "github.com/willfaught/paige"
-
-[caches]
-  [caches.images]
-    dir = ':cacheDir/images'
+[[module.imports]]
+path = "github.com/LukeSmithxyz/lugo"
 
 [markup]
-  [markup.scss]
-    generate = false
-  [markup.highlight]
-    noclasses = false
-    style = "github"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
-[params.paige]
-  description = "Klovnstation 14 Design Documents"
-
-[paige.site]
-  color = "#ec1c24"
-  color_scheme = "auto"
-  disable_menu = false
+[params]
+  nextprev = false
+  datesinlist = false
+  authorsinlist = false
+  indexarticles = 1

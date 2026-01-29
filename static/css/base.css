@@ -1,0 +1,409 @@
+/* Since this site is about teaching web concepts, even this file is a learning
+ * opportunity. */
+
+body {
+	color: beige ;
+	background: #111 ;
+	margin-bottom: 200px ;
+    	font-family: sans-serif ;
+}
+
+h1 {
+	text-align: center ;
+	color: #ec1c24 ;
+	border-bottom: solid #ddd 1px ;
+}
+
+header h1 {
+	font-size: 40px ;
+}
+
+h2 {
+	text-align: center ;
+	color: #ec1c24 ;
+	font-size: 24pt ;
+	max-width: 500px ;
+	margin: 1em auto ;
+}
+
+h3 {
+    color: #ec1c24 ;
+	clear: both ;
+}
+
+/* "a" is for links. */
+a {
+    color: #ec1c24 ;
+}
+
+/* The "hover" option, which can be used with pretty much anything, allows you
+ * to set different settings if someone hovers over something with their mouse.
+ * */
+a:hover {
+    color: white ;
+}
+
+dt {
+	font-weight: bold ;
+}
+
+/* code and pre are for formatting monospace text commands. Use code generally,
+ * but pre is for separate code blocks. pre is also sensitive to whitespace,
+ * unlike most of HTML. */
+code {
+	border-radius: 5px ;
+}
+pre {
+	background: darkgrey ;
+	border: 1px solid lime ;
+	border-radius: 20px ;
+	padding: 1em ;
+	white-space: pre-wrap;
+	overflow-wrap: break-word ;
+	max-width: 600px ;
+	margin: auto ;
+}
+
+.wide { max-width: inherit ; }
+
+p img, li img, h1 img, h2 img, h3 img, h4 img, dt img, .inline {
+	vertical-align: middle ;
+	max-width: 1em;
+	max-height: 1em;
+	border: none ;
+	display: inline ;
+}
+
+p img, li img, h1 img, h2 img, h3 img, h4 img, dt img, .inline {
+	vertical-align: middle ;
+	max-width: 1em;
+	max-height: 1em;
+	border: none ;
+	display: inline ;
+}
+
+img {
+	max-width: 90% ;
+	margin: auto ;
+	display: block ;
+	border: solid 5px #ec1c24 ;
+}
+.titleimg {
+	border: none ;
+	height: 150px ;
+}
+strong {
+	color: white ;
+}
+em {
+    color: gold; 
+}
+
+footer {
+	text-align: center ;
+	font-variant: small-caps ;
+	clear: both ;
+	padding: 2em 0 ;
+}
+footer li {
+	display: inline-block ;
+	padding: 0 .5em ;
+	font-size: x-large ;
+}
+footer li:hover {
+	background: lightblue ;
+}
+
+nav { font-size: small ;}
+
+footer { font-size: large ; }
+
+nav ul, footer ul {
+	padding: 0;
+}
+
+main {
+	margin: auto ;
+}
+
+/* asides are used for minor tangential notes. I have them shrunk down in
+ * softer colors in a box with soft corners (border-radius). */
+
+aside {
+    border: solid 1px black ;
+    border-radius: 20px ;
+    padding: 0 1em 0 1em ;
+    font-size: small ;
+}
+
+aside p {
+    color: gray ;
+}
+
+aside code {
+    color: green ;
+}
+
+/* .callout here is refencing any aside given the class name callout
+ * An example being: <aside class="callout"> */
+aside.callout  {
+    border: solid 1px orange;
+}
+
+.cnp {
+	width: 100% ;
+
+}
+
+/* This "@media" block defines rules that will only be applied when the minimum
+ * width of the screen is 55em or greater. In essence, they are settings that
+ * only apply on normal widescreens, but *not* phones and low res monitors.
+ * Since we have more room on widescreens, we change a couple things. */
+
+@media (min-width: 55em) {
+
+    aside {
+    margin: 0 30px 0 30px;
+    }
+
+	.resright, .disappear {
+		display: block ;
+		float: right;
+		padding: 20px ;
+		clear: both ;
+		max-height: 400px ;
+		max-width: 300px ;
+	}
+
+    header { max-width: 900px ; margin: auto;}
+	main { max-width: 850px ; }
+}
+
+.ll {
+	font-size: large ;
+	line-height: 1.3em ;
+	max-width: 600px;
+	margin: auto ;
+	display: block ;
+}
+
+.ll dt {
+	display: inline-block ;
+	width: 6em ;
+	background: gray ;
+	max-width: 30% ;
+}
+
+.ll dd {
+	display: inline ;
+	background: blue ;
+	max-width: 60% ;
+}
+
+.ll dd:after {
+	display:block;
+	content: '' ;
+}
+
+
+/* The "Next Article" Button changes color and also has a 👉 automatically
+ * added to its front. */
+
+@-webkit-keyframes next {
+    0% {color: yellow ;}
+    100% {color: lightblue}
+}
+
+.prev {
+	font-size: large ;
+	text-align: center ;
+	margin: auto ;
+	display: block ;
+	font-weight: bold ;
+	padding: 1em ;
+}
+
+.prev:before {
+	content: "👈" ;
+}
+
+.next a {
+	color: inherit ;
+}
+
+.next {
+	  -webkit-animation:next 1s infinite alternate ;
+	font-size: xx-large ;
+	text-align: center ;
+	margin: auto ;
+	display: block ;
+	font-weight: bold ;
+	padding: 1em ;
+}
+
+#servicelist {
+	text-align: center ;
+}
+
+.next:before {
+	content: "👉" ;
+}
+
+#servicelist {
+	padding-left: 0 ;
+}
+
+#servicelist li {
+	display: inline-block ;
+	height: 150px ;
+	width: 150px ;
+	position: relative ;
+}
+
+#servicelist img {
+	height: 80% ;
+	width: 80% ;
+	max-height: none ;
+	max-width: none ;
+	position: absolute ;
+	left: 50% ;
+	transform: translateX(-50%);
+}
+
+#servicelist .title, #servicelist li:hover .desc {
+	display: block ;
+	position: absolute ;
+	color: white ;
+	width: 100% ;
+	text-align: center ;
+	top: 50%;
+  	transform: translateY(-50%);
+	border-radius: 1em ;
+	font-size: large ;
+
+}
+
+.left {
+	width: 45% ;
+	float: left ;
+	clear: both ;
+}
+
+.right {
+	width: 45% ;
+	float: right ;
+}
+
+br {
+	clear: both;
+}
+
+#servicelist .title {
+	font-size: xx-large ;
+	background-color: rgba(3,3,3,0.6) ;
+}
+#servicelist li:hover .desc {
+	background-color: rgba(3,3,3,0.9) ;
+}
+
+#servicelist li:hover .title, .desc, .tags {
+	display: none ;
+}
+
+mark {
+	background: unset ;
+	color: orange ;
+	font-weight: bold ;
+}
+
+/* Icon fixes */
+.icon-link {
+    text-decoration: none !important;
+    border: none !important;
+}
+
+.icon-link:hover {
+    text-decoration: none !important;
+    filter: brightness(0) saturate(100%) invert(100%) !important; /* Pure white */
+}
+
+.icon-img {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    max-width: none !important;
+    max-height: none !important;
+    width: 45px !important;
+    height: 45px !important;
+    vertical-align: middle !important;
+    padding: 5px; /* 10px spacing around each icon */
+    margin: 5px;   /* Extra spacing between icons */
+    display: inline-block;
+}
+
+.icon-img {
+    border: solid 0px transparent !important;
+}
+
+.bigimage {
+    max-width: 300px !important;
+    max-height: 300px !important;
+    width: auto !important;
+    height: auto !important;
+}
+
+
+input#search {
+  all: unset;
+  background: #222;
+  color: #fff;
+  padding: 0.7rem 1rem;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.search {
+  width: 400px;
+  max-width: 85vw;
+  position: relative;
+  margin: 0.5rem auto 1.2rem;
+  display: flex;
+}
+
+button#clear-search {
+  all: unset;
+  position: absolute;
+  right: 4px;
+  top: 5px;
+  height: 30px;
+  width: 30px;
+  color: #888;
+  cursor: pointer;
+  transition: color 180ms ease-in-out;
+}
+button#clear-search:hover {
+  color: #eee;
+}
+
+.taglist {
+	text-align: center ;
+	margin-bottom: 2em ;
+	margin-top: 2em ;
+}
+
+.older-document {
+	display: none ;
+}
+
+.matched-recipe {
+	font-size: x-large ;
+	display: list-item !important ;
+}
+
+.hidden {
+  display: none !important;
+}
+
+#doclist.list-searched {
+  max-height: none !important;
+}
