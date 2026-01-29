@@ -1,0 +1,7 @@
+<ul id="doclist">
+{{ $number := 0 -}}
+{{- range where .Site.RegularPages "Section" "docs" -}}
+{{- $number = add $number 1 -}}
+<li data-tags="{{.Params.Tags}}" {{ if gt $number .Site.Params.indexarticles }}class="older-document"{{ end }}><a href="{{.Permalink}}">{{.Title}}</a></li>
+{{ end -}}
+</ul>

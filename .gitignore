@@ -1,0 +1,33 @@
+# Hugo generated files
+/public/
+/resources/
+/.hugo_cache/
+/.hugo_build.lock
+
+# Go modules checksums
+go.sum
+
+# Editors
+.vscode/
+*.code-workspace
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Dependencies
+node_modules/
+/sass-cache/
+
+# Old/unneeded
+bin/
+[Bb]in/
+[Oo]bj/
+.settings/
+*.swf
+*.air
+*.ipa
+*.apk

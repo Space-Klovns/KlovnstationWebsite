@@ -1,0 +1,15 @@
+{{ define "title" }}
+{{ .Title }}
+{{ end }}
+{{ define "main" }}
+<link rel="stylesheet" href="/css/docs.css">
+<article>
+<a href="/">← Main page</a>
+<br>
+<a href="/docs/">← Design docs</a>
+
+<h3>Klovnstation design document</h3>
+<b>Topic: {{ index .Params "topic" }} </b>
+{{ .Content }}
+</article>
+{{ end }}

@@ -1,0 +1,16 @@
+baseURL = "/"
+languagecode = "en-us"
+title = "Klovnstation 14"
+description = "It's the place to be!"
+theme = "lugo"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  nextprev = false
+  datesinlist = false
+  authorsinlist = false
+  indexarticles = 1
