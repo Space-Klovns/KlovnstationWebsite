@@ -1,5 +1,6 @@
 ---
 title: "XMPP"
-layout: single
+type: subpages
+layout: subpage
 ---
 UNDER CONSTRUCTION

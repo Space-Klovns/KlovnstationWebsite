@@ -1,5 +1,6 @@
 ---
 title: "Ban evasion tutorial"
-layout: single
+type: subpages
+layout: subpage
 ---
 UNDER CONSTRUCTION
