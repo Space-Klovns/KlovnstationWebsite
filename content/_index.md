@@ -7,6 +7,8 @@ Welcome to the website of Klovnstation 14.
 
 We are a Space Station 14 server with minimal rules and a focus on high quality game design. Scholarly players, powergamers and roleplayers will all find their niche here.
 
+We do not care about your past bans as long as you aren't a creep or criminal, everyone else is welcome here.
+
 <div>
 
 <div class=left>
@@ -21,9 +23,9 @@ We are a Space Station 14 server with minimal rules and a focus on high quality 
 
 - [Our game IP (game.klovnstation.org)](ss14://game.klovnstation.org)
 
-- XMPP tutorial for dummies (under construction)
+- [Our minimal rules](/rules)
 
-- Ban evasion tutorial (under construction)
+- XMPP tutorial for dummies (under construction)
 
 - About us (under construction)
 
