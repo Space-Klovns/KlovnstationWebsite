@@ -19,6 +19,8 @@ We are a Space Station 14 server with minimal rules and a focus on high quality 
 
 - [The launcher you'll need to play Klovn (we are using simplestation auth)](https://store.steampowered.com/app/3731580/Space_Station_Beyond/)
 
+- [Our game IP (game.klovnstation.org)](ss14://game.klovnstation.org)
+
 - XMPP tutorial for dummies (under construction)
 
 - Ban evasion tutorial (under construction)
