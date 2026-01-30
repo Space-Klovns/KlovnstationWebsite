@@ -30,12 +30,7 @@ jobs:
       - name: Copy Lugo assets (FIXES CSS)
         run: cp -r themes/lugo/static/* static/ || true
       - name: Build
-        run: hugo --gc --minify --baseURL "/KlovnstationWebsite/" --cleanDestinationDir
-      - name: Fix theme hardcoded links (CRITICAL)
-        run: |
-          cd public
-          find . -name "*.html" -exec sed -i 's|href="/\([^/]*\)/\?|\1/|g' {} +
-          find . -name "*.html" -exec sed -i 's|src="/\([^/]*\)/\?|\1/|g' {} +
+        run: hugo --gc --minify --cleanDestinationDir
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
