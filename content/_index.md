@@ -11,13 +11,13 @@ We are a Space Station 14 server with minimal rules and a focus on high quality 
 
 <div class=left>
 
-{{% hotlinkicon "https://discord.gg/YOUR_INVITE" "/icons/discord.svg" "Discord" %}}
-{{% hotlinkicon "https://discord.gg/YOUR_INVITE" "/icons/github.svg" "Github" %}}
-{{% hotlinkicon "https://discord.gg/YOUR_INVITE" "/icons/xmpp.svg" "XMPP" %}}
-{{% hotlinkicon "https://discord.gg/YOUR_INVITE" "/icons/wiki.svg" "Wiki" %}}
-{{% hotlinkicon "https://discord.gg/YOUR_INVITE" "/icons/youtube.svg" "YouTube" %}}
+{{% hotlinkicon "https://discord.gg/adkEEQQyRj" "/icons/discord.svg" "Discord" %}}
+{{% hotlinkicon "https://github.com/Space-Klovns/Klovnstation14" "/icons/github.svg" "Github" %}}
+{{% hotlinkicon "/xmpp" "/icons/xmpp.svg" "XMPP" %}}
+{{% hotlinkicon "https://klovnstation14.miraheze.org/wiki/Main_Page" "/icons/wiki.svg" "Wiki" %}}
+{{% hotlinkicon "https://www.youtube.com/@Klovnstation14" "/icons/youtube.svg" "YouTube" %}}
 
-- [The launcher you'll need to play Klovn](https://store.steampowered.com/app/3731580/Space_Station_Beyond/)
+- [The launcher you'll need to play Klovn (we are using simplestation auth)](https://store.steampowered.com/app/3731580/Space_Station_Beyond/)
 
 - XMPP tutorial for dummies (under construction)
 
