@@ -9,6 +9,8 @@ We are a Space Station 14 server with minimal rules and a focus on high quality 
 
 We do not care about your past bans as long as you aren't a creep or criminal, everyone else is welcome here.
 
+## IMPORTANT: We are still temporarily on Wizden auth. This will be changed soon.
+
 <div>
 
 <div class=left>
@@ -19,7 +21,7 @@ We do not care about your past bans as long as you aren't a creep or criminal, e
 {{% hotlinkicon "https://klovnstation14.miraheze.org/wiki/Main_Page" "/icons/wiki.svg" "Wiki" %}}
 {{% hotlinkicon "https://www.youtube.com/@Klovnstation14" "/icons/youtube.svg" "YouTube" %}}
 
-- [The launcher you'll need to play Klovn (we are using simplestation auth)](https://store.steampowered.com/app/3731580/Space_Station_Beyond/)
+- [The launcher we recommend](https://store.steampowered.com/app/3731580/Space_Station_Beyond/)
 
 - [Our game IP (game.klovnstation.org)](ss14://game.klovnstation.org)
 
