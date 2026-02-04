@@ -29,7 +29,7 @@ We do not care about your past bans as long as you aren't a creep or criminal, e
 
 - XMPP tutorial for dummies (under construction)
 
-- About us (under construction)
+- [About us](/aboutus)
 
 </div>
 
