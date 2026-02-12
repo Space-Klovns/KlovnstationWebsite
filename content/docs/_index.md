@@ -14,6 +14,7 @@ layout: single
 
 <script>
 // @license magnet:?xt=urn:btih:5ac446d35272cc2e4e85e4325b146d0b7ca8f50c&dn=unlicense.txt Unlicense
+// stolen from based cooking credit goes to luke smith same for this website's theme
 
 document.addEventListener("DOMContentLoaded", () => {
   for (e of document.getElementsByClassName("js-only")) {

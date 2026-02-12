@@ -63,7 +63,7 @@ Additionally, ammonia and water vapor being near planter boxes at a low enough t
 Anomalies should be able to interface with gases (and probably consume them in the process) to provide unique benefits like lesser pulserate, more points or even an over time severity decrease, making atmos and sci able to tame anomalies forever when they work together. 
 
 *Pneumatics*
-Pneumatic items are an interesting idea to explore, and could be a fun pastime or grigger trap staple. Here are some ideas for various parts:
+Pneumatic items are an interesting idea to explore, and could be a fun pastime or greytider trap staple. Here are some ideas for various parts:
 
 - Pneumatic hammer
 
