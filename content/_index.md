@@ -9,8 +9,6 @@ We are a Space Station 14 server with minimal rules and a focus on high quality 
 
 We do not care about your past bans as long as you aren't a creep or criminal, everyone else is welcome here.
 
-## IMPORTANT: We are still temporarily on Wizden auth. This will be changed soon.
-
 <script>
 // demonic shit
 document.addEventListener('DOMContentLoaded', function() {
