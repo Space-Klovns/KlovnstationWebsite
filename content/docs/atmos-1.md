@@ -94,3 +94,5 @@ Atmos now gets to actually help people and it has more stuff to do than just max
 - Zipion
 - Molar mixer
 - Gas overflow valve
+- Air grenade compressor
+- Evaporin
