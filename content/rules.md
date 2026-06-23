@@ -18,6 +18,7 @@ layout: subpage
   - Metacomming is very gigachad but please do not use them too abusively, such as talking when you are dead and whatnot. Since we lack an option to enforce this, this is basically an appeal to your good will.
   - If you cheat, you will get banned for a while to cool off or mercilessly abused by the admins.
   - Do not be a weaselly pilpul rules lawyer.
+  
   **Sub 20 pop mass murder rule (we do not like this rule any more than you do)**
   - You may not kill other players if the server population is at or less than 20 players.
   Exceptions:
