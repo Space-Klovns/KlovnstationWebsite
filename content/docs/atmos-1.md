@@ -96,3 +96,4 @@ Atmos now gets to actually help people and it has more stuff to do than just max
 - Gas overflow valve
 - Air grenade compressor
 - Evaporin
+- Pneumatic hammer
