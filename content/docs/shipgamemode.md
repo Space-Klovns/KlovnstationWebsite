@@ -1,7 +1,7 @@
 ---
 title: "Ship gamemode"
 topic: "A ship-based gamemode for KS14."
-date: 2026-04-10
+date: 2026-06-25
 tags: ["gamemode"]
 layout: designdoc
 ---
@@ -36,7 +36,7 @@ This is quite self explanatory. Monolith has well-optimised basic ship systems t
 
 - Ship QoL changes from frontier and hullrot, mass scanner from EE
 
-The EE mass scanner that doesn't rotate with you is a much needed improvement and as such should perhaps replace the original wizden mass scanner within our codebase. Ships should be given QoL changes from frontier, hullrot, black space and et cetera - this includes *navigation to coordinates*, *iff search*, *ID locking/hullrot access system*, *5 nameable signal outputs*, *the fancy azimuth system from BS* and *cruise, drive and park*.
+The EE mass scanner that doesn't rotate with you is a much needed improvement and as such should perhaps replace the original wizden mass scanner within our codebase. Ships should be given QoL changes from frontier, hullrot, black space and et cetera - this includes navigation to coordinates, iff search, ID locking/hullrot access system, 5 nameable signal outputs, the fancy azimuth system from BS and cruise, drive and park.
 
 Special care should be taken to ensure that this works with ships built from nothing, i.e. grids. Shuttle renaming and grid claiming should be added as features.
 
