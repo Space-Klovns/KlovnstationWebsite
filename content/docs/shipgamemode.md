@@ -2,7 +2,7 @@
 title: "Ship gamemode"
 topic: "A ship-based gamemode for KS14."
 date: 2026-06-25
-tags: ["gamemode"]
+tags: ["shipgamemode"]
 layout: designdoc
 ---
 
