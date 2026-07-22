@@ -1,0 +1,13 @@
+{{ define "title" }}
+{{ .Title }}
+{{ end }}
+{{ define "main" }}
+<link rel="stylesheet" href="/css/docs.css">
+<article>
+<a href="/">← Main page</a>
+<br>
+<a href="/lore/">← Lore</a>
+
+{{ .Content }}
+</article>
+{{ end }}
