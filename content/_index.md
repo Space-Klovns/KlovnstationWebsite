@@ -63,6 +63,7 @@ document.addEventListener('DOMContentLoaded', function() {
 - [Our minimal rules](/rules)
 - XMPP tutorial for dummies (under construction)
 - [About us](/aboutus)
+- [Lore](/lore)
 </div>
 <div class="right">
 <img src="/images/kslogo.png" alt="KS14 logo" class="bigimage">
