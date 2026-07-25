@@ -3,4 +3,8 @@ title: "Orbitals"
 layout: lore
 ---
 
-Under construction.
+The hardy people that inhabit Saturn's rings are nothing like their cloudborne counterparts. Cloud society is more refined, somewhat reminiscent of the old ways back on Earth. They have spacious outposts with spas, pools, sport halls and other amenities. Orbital stations, in turn, suffer from energy shortages, cramped passageways, stale and musty air and common catastrophic malfunctions. The rings are thick with dust that covers solar panels, suits and gets into machinery - grinding it to a halt. Cooling anything is an issue, and as such the outposts are always sweltering as their cooling arrays are pushed to the brink of their capabilities.
+
+This environment, alongside the dangerous working conditions, has created a society of competent, no-nonsense workers. Royal titles mean little up in the ring, and the useless usually get relegated to less important duties or unceremoniously shipped below into the clouds. The miners, scientists and technicians that inhabit space think themselves better and more competent than the masses they provide crucial supplies for, and this haughtiness leads in turn to bitterness and animosity.
+
+While neither side ever particularly liked the other, the invention of Neo-Alchymie has been seen by most orbitals as a direct threat to their sovereignty and way of life. If the plasma-huffers can replace them with machines, their entire culture and civilisation will collapse. To many, this is a good thing - freeing them from the comparably horrid conditions to descend into the clouds. To others - this is an existential nightmare. The Syndicate is the crystallisation of these efforts, a militant organisation preparing for an apocalyptic showdown which would at last secure their place in the world and put the cloudmen in their place, once and for all.

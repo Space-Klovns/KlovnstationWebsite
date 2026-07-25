@@ -24,7 +24,7 @@ Welcome, weary traveler. Take off your cloudsuit and have a seat. What would you
 - [Saturnian Syndicate](/lore/syndicate)
 - [Orbitals](/lore/orbitals)
 - [Solarians](/lore/solarians)
-- [Orange beaks](/lore/orangevox)
+- [Orange Beaks](/lore/orangevox)
 - [Greater Cirkus of Saturn](/lore/cirkus)
 - [Nestbelt Earth](/lore/nestbelt)
 

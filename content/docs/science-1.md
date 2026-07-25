@@ -43,49 +43,77 @@ Whatever the emitter emits will be modified by the type of lens, (ray or bolt) w
 - Lens
 
 *Rays:*
+
 -hitscan
+
 -only effects on impact, not flyby
+
 -0.5x power draw
 
 *Bolts:*
+
 -projectile
+
 -effects possible on both flyby and impact
+
 -2x heat produced
 
 - Wavelength group
 
 *Microwave:*
+
 -no innate damage
+
 -"invisible" projectiles and rays whose only tell is air distortion (similar to invisibility in the game)
+
 -pass through objects that they do not obliterate, up to 10 times
+
 -2x power draw
+
 -2x heat produced
 
 *Laser:*
+
 -damage type: Heat
+
 -visible, red, bright, create a crack sound when fired (think lasgun from warhammer)
+
 -can reflect
 
 *X-ray:*
+
 -damage type: Radiation
+
 -also visible, but green instead of red
+
 -1.5x power draw
 
 - Wavelength range (RNG subeffects assigned at roundstart) (WIP, more will be thought up)
 
 *Impact:*
+
 -bouncing projectile
+
 -piercing projectile
+
 -explodes upon impact
+
 -charges electrical devices (infinite power, yes.)
+
 -EMP effect on target
+
 -releases gas
+
 -knockback
 
 *Flyby:*
+
 -acts as an igniter
+
 -adds/removes heat
+
 -creates a light-emitting trail in its wake that lasts up to a minute
+
 -adds/removes a gas
 
 ### Projected results of this change

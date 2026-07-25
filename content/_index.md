@@ -47,6 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
 - [Our minimal rules](/rules)
 - XMPP tutorial for dummies (under construction)
 - [About us](/aboutus)
+- [Lore](/lore)
 </div>
 
 <!-- DESKTOP LAYOUT -->
