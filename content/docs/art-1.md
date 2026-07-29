@@ -86,6 +86,163 @@ Hullrot has managed to create a decent looking artstyle even as it retains many 
 
 Well that's because that's how it works. I (the author) do not have the skill to create an artbook or all of this art by myself nor do I have a small team at my disposal to create perfectly aligned art. We will rely on a lot of volunteer work. This is just the basic "do not do X" document, a lot of what you'll be doing will just be looking at the game at hand and trying to make things fit.
 
+### Factional design languages
+
+**Cloud civilian**
+
+Industrial, fairly clean. Since these are cloudmen, some luxury and visual refinement can be afforded - but not too much. Departmental colors overlaid on a relatively monochrome base.
+
+**Orbital civilian**
+
+Generous coatings of space dust. Grey interiors, colors only in crucial areas. Worn and used equipment. Damage present in various areas.
+
+**Cloud royal**
+
+Smooth, decorated interiors. Somewhat brighter than civilians but not by much. Blue as the color base (take care not to oversaturate).
+
+**Orbital syndicate**
+
+Dark and red, de facto continuing the original game's syndicate art style. Panels hide away crucial machinery, everything is more streamlined and militarised. 
+
+**Cloud vox**
+
+Worn down and grimy aesthetic. Orange as the primary color with a warm tint to most things. Distinctly different looking from human environments.
+
+
 ### Current sprite requests
 
-*Most of our efforts will be directed at the creation of walls, tiles, windows and other commonly seen sprites.*
+Most of our efforts will be directed at the creation of walls, tiles, windows and other commonly seen items. Finished sprites will be ticked off.
+
+The large amount of sprites is desired for the creation of distinct environments that the player will be able to distinguish at a glance.
+
+Right now we require the creation of these sprites:
+
+**Walls**
+
+Walls will be listed by faction and by intended type. (which should help with making the sprite)
+As a rule of thumb, cloudman civillian sprites can be used as orbital civillian sprites when dirtied and lightened.
+
+*Cloud civ*
+
+- simple solid wall
+- simple shuttle wall
+- medium wall (de-facto reinforced wall)
+
+*Orbital civ*
+
+- simple solid wall
+- simple shuttle wall
+- medium wall
+
+*Orbital syndicate*
+
+- simple solid wall
+- simple shuttle wall
+- medium wall
+- heavy shuttle wall
+- heavy wall
+- peltier wall ([inspiration](https://defensereview.com/bae-systems-adaptiv-thermalir-infaredmultispectral-adaptive-camouflageinvisibility-cloaking-systemvehicle-armor-system-for-infantry-ground-vehicles-aircraft-ships-and-structures-active-camouf/))
+- radar absorbent wall ([inspiration](https://duckduckgo.com/?t=ffab&q=radar%20absorbent%20material&ia=images&iax=images))
+
+*Cloud royal*
+
+- simple solid wall
+- simple shuttle wall
+- medium wall
+- heavy shuttle wall
+- heavy wall
+- peltier wall
+- radar absorbent wall
+
+*Cloud vox*
+
+- simple solid wall
+- simple shuttle wall
+- medium wall
+- heavy shuttle wall
+- heavy wall
+- peltier wall
+- radar absorbent wall
+
+**Windows**
+
+*Cloud civ*
+
+- simple window
+- shuttle window (more submarine like)
+- medium window
+
+*Orbital civ*
+
+- simple window
+- shuttle window (more submarine like)
+- medium window
+
+*Orbital syndicate*
+
+All syndicate windows should be red.
+
+- simple window
+- shuttle window (more submarine like)
+- medium window
+- heavy shuttle window
+- heavy window
+
+*Cloud royal*
+
+- simple window
+- shuttle window (more submarine like)
+- medium window
+- heavy shuttle window
+- heavy window
+- decorative window
+
+*Cloud vox*
+
+All cloud vox windows should be orange.
+
+- simple window
+- shuttle window (more submarine like)
+- medium window
+- heavy shuttle window
+- heavy window
+- decorative window
+
+**Tiles**
+
+Please make 4 tiles per every sprite sheet for variantisation.
+
+*Cloud civ*
+
+- light steel tile (clean, slightly grimy, very grimy, damaged)
+- base steel tile (clean, slightly grimy, very grimy, damaged)
+- dark steel tile (clean, slightly grimy, very grimy, damaged)
+- techmaint tile (slightly grimy, very grimy, damaged)
+- techmaint tile 2 (slightly grimy, very grimy, damaged)
+
+*Orbital civ*
+
+Orbital civ tiles should in general be lighter colored than their cloudman counterparts. Grime here should not be dark, but light as it comes from space dust.
+
+- light steel tile (clean, slightly grimy, very grimy, damaged)
+- base steel tile (clean, slightly grimy, very grimy, damaged)
+- dark steel tile (clean, slightly grimy, very grimy, damaged)
+- techmaint tile (slightly grimy, very grimy, damaged)
+- techmaint tile 2 (slightly grimy, very grimy, damaged)
+
+*Orbital syndicate*
+
+- light steel tile (clean, slightly grimy, very grimy, damaged)
+- base steel tile (clean, slightly grimy, very grimy, damaged)
+- dark steel tile (clean, slightly grimy, very grimy, damaged)
+- techmaint tile (clean, slightly grimy, very grimy, damaged)
+- techmaint tile 2 (clean, slightly grimy, very grimy, damaged)
+
+*Cloud royal*
+
+- light steel tile (clean, slightly grimy, very grimy, damaged)
+- base steel tile (clean, slightly grimy, very grimy, damaged)
+- dark steel tile (clean, slightly grimy, very grimy, damaged)
+- techmaint tile (clean, slightly grimy, very grimy, damaged)
+- techmaint tile 2 (clean, slightly grimy, very grimy, damaged)
+- decorative tile (clean, slightly grimy, very grimy, damaged)
