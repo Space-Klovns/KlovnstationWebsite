@@ -88,4 +88,4 @@ Well that's because that's how it works. I (the author) do not have the skill to
 
 ### Current sprite requests
 
-- hold till advised
+*Most of our efforts will be directed at the creation of walls, tiles, windows and other commonly seen sprites.*
