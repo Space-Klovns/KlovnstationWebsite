@@ -9,6 +9,7 @@ We are a Space Station 14 server with minimal rules and a focus on high quality 
 
 We do not care about your past bans as long as you aren't a creep or criminal, everyone else is welcome here.
 
+
 <script>
 // demonic shit
 document.addEventListener('DOMContentLoaded', function() {
@@ -74,6 +75,98 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <!--Horrible demonic solution to the most egregious bits of flicker on website load caused by the JS-->
 <div id="flicker-prevention" style="display: none;">
+
+### Upcoming pophosts
+
+<div id="discord-events">Loading events…</div>
+
+<script>
+  const EVENTS_URL = 'http://game.klovnstation.org/events';
+  const GUILD_ID = '1431244580451516428';
+
+  function formatDate(value) {
+    if (!value || value === 'None') return '—';
+
+    const date = new Date(value);
+    if (Number.isNaN(date.getTime())) return value;
+
+    return date.toLocaleString(undefined, {
+      weekday: 'short',
+      year: 'numeric',
+      month: 'short',
+      day: 'numeric',
+      hour: '2-digit',
+      minute: '2-digit',
+    });
+  }
+
+  async function loadEvents() {
+    const container = document.getElementById('discord-events');
+
+    try {
+      const url = `${EVENTS_URL}?guild_id=${encodeURIComponent(GUILD_ID)}`;
+      const res = await fetch(url);
+
+      if (!res.ok) {
+        container.textContent = 'Failed to load events.';
+        return;
+      }
+
+      const data = await res.json();
+      const events = data.events || [];
+
+      if (!events.length) {
+        container.textContent = 'No upcoming events.';
+        return;
+      }
+
+      const table = document.createElement('table');
+      table.style.width = '100%';
+      table.style.borderCollapse = 'collapse';
+
+      const thead = document.createElement('thead');
+      thead.innerHTML = `
+        <tr>
+          <th style="text-align:left; padding:8px; border-bottom:1px solid #ccc;">Name</th>
+          <th style="text-align:left; padding:8px; border-bottom:1px solid #ccc;">Start</th>
+          <th style="text-align:left; padding:8px; border-bottom:1px solid #ccc;">End</th>
+          <th style="text-align:left; padding:8px; border-bottom:1px solid #ccc;">Location</th>
+          <th style="text-align:left; padding:8px; border-bottom:1px solid #ccc;">Users</th>
+        </tr>
+      `;
+
+      const tbody = document.createElement('tbody');
+
+      for (const event of events) {
+        const tr = document.createElement('tr');
+
+        const [name, startTime, endTime, location, userCount] = event;
+
+        tr.innerHTML = `
+          <td style="padding:8px; border-bottom:1px solid #eee;">${name ?? '—'}</td>
+          <td style="padding:8px; border-bottom:1px solid #eee;">${formatDate(startTime)}</td>
+          <td style="padding:8px; border-bottom:1px solid #eee;">${formatDate(endTime)}</td>
+          <td style="padding:8px; border-bottom:1px solid #eee;">${location && location !== 'None' ? location : '—'}</td>
+          <td style="padding:8px; border-bottom:1px solid #eee;">${userCount ?? '0'}</td>
+        `;
+
+        tbody.appendChild(tr);
+      }
+
+      table.appendChild(thead);
+      table.appendChild(tbody);
+
+      container.innerHTML = '';
+      container.appendChild(table);
+    } catch (err) {
+      console.log(err);
+      container.textContent = 'Error loading events.';
+    }
+  }
+
+  loadEvents();
+</script>
+
 
 ### Our design documents
 
