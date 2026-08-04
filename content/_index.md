@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <div id="discord-events">Loading events…</div>
 
 <script>
-  const EVENTS_URL = 'http://game.klovnstation.org/events';
+  const EVENTS_URL = 'https://game.klovnstation.org/events';
   const GUILD_ID = '1431244580451516428';
 
   function formatDate(value) {
