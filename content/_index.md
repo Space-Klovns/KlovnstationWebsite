@@ -131,7 +131,6 @@ document.addEventListener('DOMContentLoaded', function() {
           <th style="text-align:left; padding:8px; border-bottom:1px solid #ccc;">Start</th>
           <th style="text-align:left; padding:8px; border-bottom:1px solid #ccc;">End</th>
           <th style="text-align:left; padding:8px; border-bottom:1px solid #ccc;">Location</th>
-          <th style="text-align:left; padding:8px; border-bottom:1px solid #ccc;">Users</th>
         </tr>
       `;
 
@@ -140,14 +139,13 @@ document.addEventListener('DOMContentLoaded', function() {
       for (const event of events) {
         const tr = document.createElement('tr');
 
-        const [name, startTime, endTime, location, userCount] = event;
+        const [name, startTime, endTime, location] = event;
 
         tr.innerHTML = `
           <td style="padding:8px; border-bottom:1px solid #eee;">${name ?? '—'}</td>
           <td style="padding:8px; border-bottom:1px solid #eee;">${formatDate(startTime)}</td>
           <td style="padding:8px; border-bottom:1px solid #eee;">${formatDate(endTime)}</td>
           <td style="padding:8px; border-bottom:1px solid #eee;">${location && location !== 'None' ? location : '—'}</td>
-          <td style="padding:8px; border-bottom:1px solid #eee;">${userCount ?? '0'}</td>
         `;
 
         tbody.appendChild(tr);
