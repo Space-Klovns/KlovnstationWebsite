@@ -114,8 +114,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
       const data = await res.json();
       const events = data.events || [];
+      const now = Date.now();
+      const upcomingEvents = events.filter(([, startTime]) => {
+        const startTimestamp = new Date(startTime).getTime();
+        return Number.isNaN(startTimestamp) || startTimestamp >= now;
+      });
 
-      if (!events.length) {
+      if (!upcomingEvents.length) {
         container.textContent = 'No upcoming events.';
         return;
       }
@@ -136,7 +141,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
       const tbody = document.createElement('tbody');
 
-      for (const event of events) {
+      for (const event of upcomingEvents) {
         const tr = document.createElement('tr');
 
         const [name, startTime, endTime, location] = event;
