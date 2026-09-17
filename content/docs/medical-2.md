@@ -8,7 +8,7 @@ layout: designdoc
 
 ### Current status
 
-Klovnmed has stabilised the situation on the medical front, but we all know that this was never the endgame of the medical system. This proposal, known colloquialy as factoriomed/complexmed in klovn circles for a long time now, seeks to create the best comprehensive framework of the body and its functionality. Various features like genetics are not here yet, as this is the first in a series of documents on the topic.
+Klovnmed has stabilised the situation on the medical front, but we all know that this was never the endgame of the medical system. This proposal, known colloquially as factoriomed/complexmed in klovn circles for a long time now, seeks to create the best comprehensive framework of the body and its functionality. Various features like genetics are not here yet, as this is the first in a series of documents on the topic.
 
 ### Rationale of improvement
 
