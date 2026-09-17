@@ -1,6 +1,6 @@
 ---
 title: "Medical 1"
-topic: "Version 1 of medical system overhaul"
+topic: "Version 1 of a medical system overhaul"
 date: 2025-10-15
 tags: ["medical"]
 layout: designdoc
