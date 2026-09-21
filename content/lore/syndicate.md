@@ -7,7 +7,7 @@ Orbital life is tough. The absence of endless plasma, oxygen and water vapor to 
 
 Mining the belt, handling the constant buildup of lung and machine rending dust as well as the general fragility of space stations has made the people inhabiting the ring into a steely-eyed and competent society. Their stations now house a proper culture, hardship being the catalyst to a shared identity as it has been numerous times through human history. 
 
-It did not take long for contemptuous attitudes to arise, taking the comparatively safe and sound cloudmen to be incompetent buffoons. The sentiments soon became mutual, and soon enough most contact was reduced to just the bare minimum of trade that both sides needed to survive. Compliance to the crown is, these days, just lip service to not force the regent's hand into a painful, costly and catastrophic war.
+It did not take long for contemptuous attitudes to arise, taking the comparatively safe and sound cloudmen to be incompetent buffoons. The disdain soon became mutual, and soon enough most contact was reduced to just the bare minimum of trade that both sides needed to survive. Compliance to the crown is, these days, just lip service to not force the regent's hand into a painful, costly and catastrophic war.
 
 That being said, this could not go on forever. Neo-alchymie, the miraculous new technology being pioneered down in the clouds, threatens to reduce the kingdom's reliance on orbital imports, paving the way to a choke-out. Many asteroid miners, fearing this is to come, abandoned their already uncomfortable life in orbit in favor of living within the gas giant. 
 
