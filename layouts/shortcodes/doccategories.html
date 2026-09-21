@@ -1,0 +1,25 @@
+{{- $docPages := where .Site.RegularPages "Section" "docs" -}}
+{{- $categories := slice -}}
+{{- range $docPages -}}
+  {{- range .Params.tags -}}
+    {{- if not (in $categories .) -}}
+      {{- $categories = $categories | append . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+<ul id="doc-categories">
+{{- range sort $categories -}}
+  {{- $category := . -}}
+  {{- $categoryURL := printf "/tags/%s/" ($category | urlize) -}}
+  <li class="doc-category">
+    <a class="category-trigger" href="{{ $categoryURL }}">{{ $category | title }}</a>
+    <ul class="doc-category-docs">
+    {{- range $docPages -}}
+      {{- if in .Params.tags $category -}}
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      {{- end -}}
+    {{- end -}}
+    </ul>
+  </li>
+{{- end -}}
+</ul>

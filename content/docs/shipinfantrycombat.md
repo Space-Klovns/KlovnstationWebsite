@@ -63,9 +63,9 @@ Asymmetrisation is a similar issue. In a game that demands universality, being c
 * built in utilities (jetpack/magboots for example)
 * speed
 
-**Proposed armor/gun setups for both factions and gamemodes**
+**Proposed setups for both factions and gamemodes**
 
-*Catastrophe/Both factions (guns are scavenged and crafted)*
+*Catastrophe/Both factions (guns are scavenged and crafted) - Guns*
 
 - Jezail
 
@@ -91,7 +91,7 @@ Semi-automatic, suppressed pistol. NB theming. Hidden bullets and low impact noi
 
 Bolt action rifle. Syndicate theming. Manual cycling. Clip-fed, single digit magsize.
 
-#### Armor
+*Armor*
 
 - Basic EVA suit
 
@@ -109,7 +109,7 @@ Crafted with both of the previous items. Combines the capabilities of the two wi
 
 Crafted with the soft armor vest and plasteel. Medium resistances, 30% slowdown.
 
-*Climax/Syndicate*
+*Climax/Syndicate - Guns*
 
 - Hydra
 
@@ -127,11 +127,11 @@ Semi automatic, sawn-off shotgun. Compact inventory wise and useful in unconvent
 
 Fully automatic, one handed SMG. Beaming, loses in ttk to all guns, designed for medics and whatnot.
 
-#### Armor
+*Armor*
 
 Three suits - stealthy suit with quiet footsteps, light suit, heavy suit.
 
-*Climax/Nova Bohemia*
+*Climax/Nova Bohemia - Guns*
 
 - Honor
 
@@ -149,7 +149,7 @@ Semi-automatic, one handed heavy pistol. Counterpart to the gorget, identical in
 
 Heavy, handheld autocannon. Severe structural damage, small explosions, comparable TTK to rifles. Cumbersome, heavy, loaded with low-capacity clips.
 
-#### Armor
+*Armor*
 
 Three suits - stealthy suit with quiet footsteps, light suit, heavy suit.
 

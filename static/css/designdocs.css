@@ -1,0 +1,129 @@
+.design-doc {
+	max-width: 760px ;
+	margin: 2rem auto 0 ;
+	padding: 0 1rem ;
+	color: #d8d4ca ;
+	font-size: 1.05rem ;
+	line-height: 1.65 ;
+}
+
+.design-doc h3 {
+	margin: 2rem 0 0.75rem ;
+	padding-bottom: 0.35rem ;
+	color: #d94a4f ;
+	font-size: 1.45rem ;
+	line-height: 1.25 ;
+	border-bottom: 1px solid #514646 ;
+}
+
+.design-doc h4 {
+	margin: 1.75rem 0 0.5rem ;
+	color: #d94a4f ;
+	line-height: 1.3 ;
+}
+
+.design-doc p,
+.design-doc ul,
+.design-doc ol {
+	margin: 1rem 0 ;
+}
+
+.design-doc li + li {
+	margin-top: 0.45rem ;
+}
+
+.design-doc b,
+.design-doc strong {
+	color: #f0ece2 ;
+}
+
+.design-doc em {
+	display: inline ;
+	color: #d8bd72 ;
+	font-style: italic ;
+}
+
+.design-doc strong {
+	display: inline ;
+}
+
+.design-doc p > strong:only-child,
+.design-doc p > b:only-child {
+	display: block ;
+	padding-bottom: 0.2rem ;
+	border-bottom: 1px solid #514646 ;
+}
+
+.design-doc img {
+	max-width: 100% !important ;
+	height: auto !important ;
+	margin: 1.5rem auto ;
+}
+
+.design-doc pre {
+	background: #292a27 ;
+	border: 1px solid #514646 ;
+	border-radius: 6px ;
+	line-height: 1.45 ;
+}
+
+#doc-categories {
+	max-width: 600px ;
+	margin: 1rem auto ;
+	padding: 0 ;
+	list-style: none ;
+}
+
+#doc-categories .doc-category {
+	margin: 0.45rem 0 ;
+}
+
+#doc-categories .category-trigger {
+	display: block ;
+	box-sizing: border-box ;
+	width: 100% ;
+	padding: 0.35rem 0.6rem ;
+	border: 1px solid #514646 ;
+	border-radius: 4px ;
+}
+
+#doc-categories .category-trigger:hover,
+#doc-categories .category-trigger:focus-visible,
+#doc-categories .doc-category:hover .category-trigger,
+#doc-categories .doc-category:focus-within .category-trigger {
+	color: #f0ece2 ;
+	background: #292a27 ;
+}
+
+#doc-categories .doc-category-docs {
+	display: none ;
+	box-sizing: border-box ;
+	width: 100% ;
+	margin: 0 ;
+	padding: 0.45rem 0.75rem 0.55rem 1.7rem ;
+	background: #292a27 ;
+	border: 1px solid #514646 ;
+	border-radius: 0 4px 4px 4px ;
+}
+
+#doc-categories .doc-category:hover .doc-category-docs,
+#doc-categories .doc-category:focus-within .doc-category-docs {
+	display: block ;
+}
+
+#doc-categories .doc-category-docs li {
+	margin: 0.2rem 0 ;
+	white-space: nowrap ;
+}
+
+#doc-categories .doc-category-docs a {
+	display: block ;
+	padding: 0.15rem 0 ;
+}
+
+@media (max-width: 55em) {
+	.design-doc {
+		font-size: 1rem ;
+		padding: 0 0.75rem ;
+	}
+}
