@@ -3,7 +3,7 @@ title: "Nestbelt Earth"
 layout: lore
 ---
 
-Vox are an unhappy species. Deeply, intensely tribal and clannish, they loathe being surrounded by masses. Unfortunately for them, it is difficult to construct microprocessors from first principles in a group of 100 people. As such, they begrudgingly cooperate in important cases, though eventually the unbearable population density of the rapidly breeding population forces war. The winners get to keep the sector, and the losers get to fly blindly into the stars searching for a new home.
+Vox are an unhappy species. Tribal and clannish, they loathe being surrounded by masses. Unfortunately for them, it is difficult to construct microprocessors from first principles in a group of 100 people. As such, they begrudgingly cooperate in important cases, though eventually the unbearable density of the rapidly breeding population forces war. The winners get to keep the sector, and the losers get to fly blindly into the stars searching for a new home.
 
 Enter Earth. A colossal, spaceborne grave of humanity's past trials and tribulations. The shattered remains of the planet are surrounded by tons of moved earth, forming a belt rich in minerals and, for those with a keen eye, human scrap. When a vox exodus ship arrived in the system in 2071, it became a beachhead for the eventual colonisation of the sector. Countless ships zip between the massive chunks of rock, clan ships moving everywhere like swarms of flies. 
 

@@ -8,7 +8,7 @@ layout: designdoc
 
 ### Current status
 
-We have a few tired Wizard's den gases with Zipion being the only klovnstation exclusive gas - and it itself is a quite boring inhalation buff gas. This document intends to create more options for atmosians and open up brand new avenues of interplay with new, complex gases.
+We have a few tired Wizard's den gases with only Zipion, Argon and Evaporin to build onto that (2 of which are quite mediocre and one-dimensional). This document intends to create more options for atmosians and open up brand new avenues of interplay with new, complex gases.
 
 ### Rationale of improvement
 
@@ -20,4 +20,8 @@ By adding new gases we will drastically expand the amount of possibilities in ga
 Ammonia will supercharge the growth of nearby plants and forcibly wake up sleeping people in high enough concentrations while slowly poisoning (~5 minutes of exposure to kill) whoever is breathing it - the intention here is to make it a quick fix for NO2 releases, create emergency anti-nocturine tanks for people, create special greenhouses (this further builds upon the intended nutrient provision feature mentioned in Botany 1) and all in all make ammonia a more interesting gas.
 
 **Tritium**
-Tritium should emit radiation. 
+Tritium should emit radiation. As radiation is detrimental to computers, it should act as a radio jammer, computer disabler and more in high enough concentrations. 
+
+**Evaporin**
+
+Evaporin should consume water vapor in a destructive reaction. 

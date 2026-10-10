@@ -1,5 +1,5 @@
 ---
-title: "Medical 2 (WIP)"
+title: "Medical 2"
 topic: "First document of the factorio/complexmed framework."
 date: 2026-09-15
 tags: ["medical", "science"]
@@ -239,7 +239,30 @@ Packet system, allows automating simple actions like walking, accessing the inve
 - input (electricity)
 - control (packet instructions as input)
 
-**WIP, MORE TO COME**
+*Tool arm*
+
+More of a classic body part. Replaces an arm with a tool arm that has a select tool inside of it. This tool can be a gun, an omnitool, et cetera - the whitelist is primarily dependent on what makes sense and the spritework of the tool arm which should have a visual tell as to what exactly it is holding right now. It takes away the hand functionality of the arm, but trades it for things like drop-resilience, self charging (for rcds, stun batons and guns) and self-loading. (for guns, you can stock mags which it will load for you) 
+
+Example ideas: omnitool (including experimental welder), surgical omnitool, automatic hypogun (with switchable vials, can be linked to friendly bio sensors and a proximity sensor pair and automatically choose the proper vials and dosage for the nearest), gun arm (self loading), salvager arm (drill, grappling gun, powerful PKA), et cetera.
+
+- input (electricity)
+- control (per tool. for example, omnitool arm can signal doafter finishing so you can make automatic deconstruction presets for say rwalls, gun can output loaded ammo and ammo in reserve, et cetera)
+
+*HUD eye*
+
+Allows packets writing an overlay over the player's screen. Very ambitious. Can be programmed to be a biomonitor, show ammo data for linked guns, show enemies when used with the threat radar, et cetera.
+
+- input (electricity)
+- control (to draw things on the screen)
+
+*Physnet interface*
+
+Automatically shows packet ports and addresses on compatible devices. Allows quickbinding an action to load the addy into a compatible packet device. Definitely should have a whitelist, high electricity consumption or a cooldown on the action to prevent people from making super-emags. Should have a visual tell with antennae near the head.
+
+- input (electricity)
+- control (input and output. can have gps coords input into it to automatically read addresses of devices on the tile for example - of course only if visible)
+
+**This document is living, and as such will be updated with more cybernetic gear as it is invented.**
 
 ### Projected results of this change
 

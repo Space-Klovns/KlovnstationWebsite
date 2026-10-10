@@ -18,104 +18,42 @@ Furthermore, we want to randomise and procgen as much of the things that sci can
 
 ### Requested changes
 
-**Emitter science**
-Emitter science is a new department that opens up a third way to gather research points and also a good example of functional and interactive sci. The design of this department will mostly consist of the main point loop and then the cool things that emitters can do.
+Slow, steady bespokisation. This document will go over various things that can be replaced by a combination of circuits and crafting.
 
-Emitter science will be a dangerous part of the station - it will be behind danger signs and the area will be scorched and damaged from past experiments. There will be up to two emitters mounted there, alongside the firing chamber, power system and cooling system. The area will contain an emitter control console, target caller, target holder and handheld emitter.
+**GPS**
 
-The way you will generate points via emitter science is by mapping out the wavelengths of the emitter and what they do using the target caller system, using them to precisely break down the target. In this process, you will discover various functionalities of the emitter and its projectiles/rays, hopefully leading to useful results. Targets will be holographic versions of various blocks, machines and structures. If a target is shot and the waveform isn't within an acceptable range, it should either just remove the target immediately and go on a cooldown (when relatively close) or do the former AND cause an explosion/fire/some form of issue.
+GPS can become an actual system with indestructible antennae in the game. If we build time of flight into transmitted signals, true multilateration is possible and GPS systems can be replaced with packets completely.
 
-The lens of an emitter should dictate whether it fires a projectile, ray or a spread of projectiles/rays. They should be made with glass at the auto or protolathe.
+**Pinpointers**
 
-The wavelength will be a number you will put into the emitter using a slider with an optional number input for precise control (up to 600), and it will be split into the microwave, light and x-ray sections. It will further be split into ranges (could be random in size or uniform) roundstart, where a system will randomly assign side functionalities for projectiles and rays in the ranges.
+Pinpointers can be replaced using a vector display and 2 gps signatures, using the GPS system as described previously.
 
-The emitter should draw massive power from an attached SMES bank, and dump a large amount of heat into the cooling system. If overheated, the emitter should be destroyed and dump hot air mixed with plasma into the atmosphere, starting a fire. The cooling system should be the primary limitation, and upgrades from atmos should be a desirable feature - this is easy to implement even with exising game items. Furthermore, a robust laser infrastructure should be required - a weak cooling system should be able to make the laser explode from just one shot even if perfectly cool beforehand.
+**Batteries**
 
-The handheld emitter will dump heat into the surrounding atmosphere (enough to make a significant difference, similar to a hyper convection lathe) and require a power cage to shoot. Its frequency should be adjustable from a bound UI, and it should collect the heat it generates to later release in the atmosphere. (no more spacing and being done with it) It should normally have a safety setting where it cannot overheat, but an emag should give it roughly twice the heat capacity with the side effect of blowing up.
-This emitter should fire low-power bolts that cannot obliterate items.
+Battery research can be replaced with manual construction from electrolytes. Randomness can be added to the discharge to necessitate creating a battery controller and smoothing circuit to linearise the battery's characteristic - this should be always possible.
 
-The target holder should be a draggable machine where you can insert possible parent items (more on that later). When shot, it should give off a red, yellow or green light to indicate whether the set waveform was correct for the parent item and if not how close the guess was.
+**Generators**
 
-Parent items are items from which a target is primarily built - steel for various machines, plasma glass for plasma glass windows, ore (likely keep all ore interchangeable) for various asteroid rocks, et cetera. Once you nail the waveform for them, you should be able to obliterate all structures with this parent item using the same wavelength.
+Generators can be almost entirely replaced with motor-dynamo pairs and simple configurable burners. Yes, this reduces their ease of use somewhat. That being said, we can compensate with constant tuning to make even a simple pacman (plasburner, dynamo, turbine) or jrpacman (welding fuel motor, dynamo) capable of powering much.
 
-Whatever the emitter emits will be modified by the type of lens, (ray or bolt) wavelength group, (x-ray, laser or microwave) and wavelength range (randomly generated sub effects.)
+**Magboots**
 
-- Lens
+Magboots can be replaced with packet inertial dampeners. Thruster arrays that require fuel can be mounted and approximate the magboot effect. (when no movement input is received, the system automatically tries to kill all inertia - when movement input is received, the system accelerates to the limit) Care should be taken to offload as much of the processing onto the client in this case, though.
 
-*Rays:*
+**Playermos**
 
--hitscan
+We can create atmos utilisers and piping that can be made on the player. This can power thrusters, small generators, et cetera. Smart playermosians will even be able to create burn chambers on themselves. Salvage's PKAs can be made into pneumatic guns that can be upgraded as the round goes on.
 
--only effects on impact, not flyby
+**Roundstartisation**
 
--0.5x power draw
+It is difficult enough to set up a lot of the machines that you can unlock as science. If we make say hyper convection lathes roundstart, they will still take time and resources to set up. I think that removing a lot of the grind could go a long way.
 
-*Bolts:*
+**Hyper lathes**
 
--projectile
+Following up with this, hyper convection lathes should have their cheesability removed and their heat output increased. This will force at least small amounts of effort (pass-through cooling systems, recirculating cooling systems, reusing the heat for the teg) instead of just spacing the lathe.
 
--effects possible on both flyby and impact
-
--2x heat produced
-
-- Wavelength group
-
-*Microwave:*
-
--no innate damage
-
--"invisible" projectiles and rays whose only tell is air distortion (similar to invisibility in the game)
-
--pass through objects that they do not obliterate, up to 10 times
-
--2x power draw
-
--2x heat produced
-
-*Laser:*
-
--damage type: Heat
-
--visible, red, bright, create a crack sound when fired (think lasgun from warhammer)
-
--can reflect
-
-*X-ray:*
-
--damage type: Radiation
-
--also visible, but green instead of red
-
--1.5x power draw
-
-- Wavelength range (RNG subeffects assigned at roundstart) (WIP, more will be thought up)
-
-*Impact:*
-
--bouncing projectile
-
--piercing projectile
-
--explodes upon impact
-
--charges electrical devices (infinite power, yes.)
-
--EMP effect on target
-
--releases gas
-
--knockback
-
-*Flyby:*
-
--acts as an igniter
-
--adds/removes heat
-
--creates a light-emitting trail in its wake that lasts up to a minute
-
--adds/removes a gas
+**This document is living, and as such will be updated with more bespokisation as it is invented.**
 
 ### Projected results of this change
 
-Science gets a third department. Lasers pave the way for further industrialisation and cool stuff. KSShipfork gamemode can reuse lasers.
+More and more science features become the result of ground-up system integration instead of being unlocked by boring minigames.

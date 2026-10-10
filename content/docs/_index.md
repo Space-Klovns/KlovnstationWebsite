@@ -2,6 +2,8 @@
 title: "Design documents"
 layout: single
 ---
+<link rel="stylesheet" href="/css/designdocs.css">
+
 ## [Go back to the main page](/)
 
 
@@ -76,4 +78,4 @@ document.addEventListener("DOMContentLoaded", () => {
 
 ### View by category
 
-{{< tagcloud >}}
+{{< doccategories >}}
