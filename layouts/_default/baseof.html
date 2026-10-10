@@ -1,6 +1,6 @@
 <!--modified lugo baseof-->
 <!DOCTYPE html>
-<html lang="{{ .Site.Language }}">
+<html lang="{{ .Site.Language }}"{{ if eq .Section "docs" }} class="docs-page"{{ end }}>
 <head>
 	<title>{{ if not .IsHome }}{{ .Title | title }} | {{ end }}{{ .Site.Title }}</title>
 	<link rel="canonical" href="{{ .Site.BaseURL }}">

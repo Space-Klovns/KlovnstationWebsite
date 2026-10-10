@@ -1,3 +1,8 @@
+/* Keep the docs layout steady when hover popups extend beyond the viewport. */
+html.docs-page {
+	overflow-y: scroll;
+}
+
 body {
 	color: beige ;
 	background: #111 ;
