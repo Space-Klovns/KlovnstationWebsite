@@ -40,7 +40,6 @@ document.addEventListener('DOMContentLoaded', function() {
 {{% hotlinkicon "https://discord.gg/adkEEQQyRj" "/icons/discord.svg" "Discord" %}}
 {{% hotlinkicon "https://github.com/Space-Klovns/Klovnstation14" "/icons/github.svg" "Github" %}}
 {{% hotlinkicon "/xmpp" "/icons/xmpp.svg" "XMPP" %}}
-{{% hotlinkicon "https://klovnstation14.miraheze.org/wiki/Main_Page" "/icons/wiki.svg" "Wiki" %}}
 {{% hotlinkicon "https://www.youtube.com/@Klovnstation14" "/icons/youtube.svg" "YouTube" %}}
 
 - [The launcher we recommend](https://github.com/LaCumbiaDelCoronavirus/SanabiLauncher)
@@ -57,7 +56,6 @@ document.addEventListener('DOMContentLoaded', function() {
 {{% hotlinkicon "https://discord.gg/adkEEQQyRj" "/icons/discord.svg" "Discord" %}}
 {{% hotlinkicon "https://github.com/Space-Klovns/Klovnstation14" "/icons/github.svg" "Github" %}}
 {{% hotlinkicon "/xmpp" "/icons/xmpp.svg" "XMPP" %}}
-{{% hotlinkicon "https://klovnstation14.miraheze.org/wiki/Main_Page" "/icons/wiki.svg" "Wiki" %}}
 {{% hotlinkicon "https://www.youtube.com/@Klovnstation14" "/icons/youtube.svg" "YouTube" %}}
 
 - [The launcher we recommend](https://store.steampowered.com/app/3731580/Space_Station_Beyond/)
