@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function() {
 {{% hotlinkicon "/xmpp" "/icons/xmpp.svg" "XMPP" %}}
 {{% hotlinkicon "https://www.youtube.com/@Klovnstation14" "/icons/youtube.svg" "YouTube" %}}
 
-- [The launcher we recommend](https://store.steampowered.com/app/3731580/Space_Station_Beyond/)
+- [The launcher we recommend](https://github.com/LaCumbiaDelCoronavirus/SanabiLauncher)
 - [Our game IP (game.klovnstation.org)](ss14://game.klovnstation.org)
 - [Our minimal rules](/rules)
 - XMPP tutorial for dummies (under construction)
